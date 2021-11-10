@@ -1,0 +1,277 @@
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dongle:wght@700&display=swap');
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: url(http://i.imgur.com/vqv5Avu.jpg) no-repeat center;
+    background-size: cover;
+}
+.header{
+width: 100%;
+height: 100%;
+}
+.conteiner{
+width: 100%;
+max-width: 1200px;
+}
+.header_iner{
+    background-color: rgba(255, 255, 255, 0.301);
+    width: 100%;
+    border-radius: 20px;
+    -webkit-box-shadow: 2px 11px 22px 10px rgba(0, 0, 0, 0.78); 
+box-shadow: 2px 11px 22px 10px rgba(0, 0, 0, 0.78);
+    
+}
+.top{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    border-bottom: 1px solid black;
+
+}
+.logo_top a{
+    color: brown;
+    font-size: 80px;
+    text-decoration: none;
+    font-family: 'Dongle', sans-serif;
+    
+}
+.menu a{
+    margin-right: 15px;
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+    transition: all .5s;
+    font-family: 'Dongle', sans-serif;
+}
+.menu a:hover{
+    font-size: 34px;
+    color: rgb(245, 10, 10);
+    border-bottom: 1px solid rgb(245, 10, 10);
+}
+.text_header{
+    text-align: center;
+    width: 100%;
+    height: 90%;
+    padding: 70px 0px;
+}
+.text_header h1{
+    color: rosybrown;
+    font-size: 60px;
+    font-family: 'Mochiy Pop One', sans-serif;
+}
+span{
+    color: black;
+}
+.text_header p{
+    margin-top: 30px;
+    font-size: 30px;
+    font-family: 'Mochiy Pop One', sans-serif;
+}
+.header_knopka {
+    margin-top: 40px;
+    width: 100%;
+    height: 30px;
+}
+.header_knopka a{
+    color: #FFFFFF;
+    background: #333333;
+    text-shadow: 0 -1px 4px #FFF, 0 -2px 10px #ff0, 0 -10px 20px #ff8000, 0 -18px 40px #F00;
+    padding: 16px 42px;
+    border: 1px solid black;
+    text-decoration: none;
+    transition: all .4s;
+}
+.knopka:hover{
+    color: #ffadd6 ;
+background-color: grey;
+text-shadow: 2px 0 0px #800040, 3px 2px 0px rgba(77,0,38,0.5), 3px 0 3px #FF002B, 5px 0 3px #800015, 6px 2px 3px rgba(77,0,13,0.5), 6px 0 9px #FF5500, 8px 0 9px #802A00, 9px 2px 9px rgba(77,25,0,0.5), 9px 0 18px #FFD500, 11px 0 18px #806A00, 12px 2px 18px rgba(77,66,0,0.5), 12px 0 30px #D4FF00, 14px 0 30px #6A8000, 15px 2px 30px rgba(64,77,0,0.5), 15px 0 45px #80FF00, 17px 0 45px #408000, 17px 2px 45px rgba(38,77,0,0.5);
+-webkit-box-shadow: 12px 11px 22px 10px rgba(255,72,8,0.78); 
+box-shadow: 12px 11px 22px 10px rgba(255,72,8,0.78);
+}
+.main{
+    margin-top: 15px;
+    width: 100%;
+    height: 100%;
+}
+.main_iner{
+    width: 100%;
+    border-radius: 20px;
+    -webkit-box-shadow: 2px 11px 22px 10px rgba(0, 0, 0, 0.78); 
+box-shadow: 2px 11px 22px 10px rgba(0, 0, 0, 0.78);
+display: flex;
+background-color: rgba(255, 255, 255, 0.5);
+}
+.list{
+    border-radius: 20px 0 0 20px;
+    width: 20%;
+    height: 500px;
+    background-color: rgba(128, 128, 128, 0.301);
+}
+.content{
+    height: 500px;  
+    width: 80%;
+}
+.a_box{
+    text-align: end;
+    border-bottom: 1px solid rgb(255, 255, 255);
+    margin-left: 80px;
+    width: 120px;
+    margin-top: 50px;
+}
+.a_box a{
+    transition: all .6s ease;
+    font-size: 25px;
+    text-decoration: none;
+    color: white;
+    /* border-bottom: 1px solid white; */
+    padding-bottom: 5px;
+}
+.photo{
+    background: url(./image/240501486_2810817369230784_2120877543741903823_n.jpg) no-repeat;
+    background-size: cover;
+    height: 300px;
+    width: 480px;
+    /* position: relative; */
+    margin-top: 120px;
+    -webkit-box-shadow: 2px 11px 22px 10px rgba(0, 0, 0, 0.78); 
+    box-shadow: 2px 11px 22px 10px rgba(0, 0, 0, 0.78);
+    
+}
+.photo img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.knop{
+    padding: 70px;
+    /* position: absolute; */
+    width: 100%;
+    height: 100%;
+    /* top: 80px;
+    left: 60px; */
+}
+.knop a{
+    transition: all .5s ease;
+    background-color: white;
+    border-radius: 15px;
+    text-decoration: none;
+    color: rgb(255, 0, 0);
+    border: 1px solid black;
+    padding: 10px 30px;
+}
+.a_box a:hover{
+    font-size: 27px;
+}
+.knop a:hover{
+    background-color: black;
+    color: white;
+    -webkit-box-shadow: 17px 9px 22px 10px rgba(0,0,0,0.78); 
+box-shadow: 17px 9px 22px 10px rgba(0,0,0,0.78);
+}
+.footer_iner{
+    margin-top: 20px;
+    width: 100%;
+    background-color: rgba(255, 99, 71, 0.5);
+}
+.contact{
+    margin: 0px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    flex-wrap: wrap;
+}
+.icon1,.icon2,.icon3,.icon4{
+    margin: 0px 0px 0px 15px
+}
+.icon1 a{
+    color: white;
+    text-decoration: none;
+    border-radius: 100%;
+    padding: 7px 9px;
+    border: 2px solid white;
+    transition: all .7s ease;
+}
+.icon2 a{
+    color: white;
+    text-decoration: none;
+    border-radius: 100%;
+    padding: 7px 9px;
+    border: 2px solid white;
+    transition: all .7s ease;
+}
+.icon3 a{
+    color: white;
+    text-decoration: none;
+    border-radius: 100%;
+    padding: 7px 11px;
+    border: 2px solid white;
+    transition: all .7s ease;
+}
+.icon4 a{
+    color: white;
+    text-decoration: none;
+    border-radius: 100%;
+    padding: 7px 8px;
+    border: 2px solid white;
+    transition: all .7s ease;
+}
+.icon1 a:hover{
+    border: 2px solid rgb(255, 255, 255);
+    color: #B7C720;
+background: #000000;
+text-shadow: 0 -1px 4px #FFF, 0 -2px 10px #ff0, 0 -10px 20px #ff8000, 0 -18px 40px #F00, 2px 2px 2px rgba(255,102,102,0);
+}
+.icon2 a:hover{
+    border: 2px solid rgb(255, 255, 255);
+    color: #B7C720;
+background: #000000;
+text-shadow: 0 -1px 4px #FFF, 0 -2px 10px #ff0, 0 -10px 20px #ff8000, 0 -18px 40px #F00, 2px 2px 2px rgba(255,102,102,0);
+}
+.icon3 a:hover{
+    border: 2px solid rgb(255, 255, 255);
+    color: #B7C720;
+background: #000000;
+text-shadow: 0 -1px 4px #FFF, 0 -2px 10px #ff0, 0 -10px 20px #ff8000, 0 -18px 40px #F00, 2px 2px 2px rgba(255,102,102,0);
+}
+.icon4 a:hover{
+    border: 2px solid rgb(255, 255, 255);
+    color: #B7C720;
+background: #000000;
+text-shadow: 0 -1px 4px #FFF, 0 -2px 10px #ff0, 0 -10px 20px #ff8000, 0 -18px 40px #F00, 2px 2px 2px rgba(255,102,102,0);
+}
+
+
+
+@media screen and (max-width:900px) {
+    .text_header h1{
+        font-size: 40px;
+    }
+    .text_header p{
+        font-size: 27px;
+    }
+    .menu{
+        display: none;
+    }
+    .list .a_box{
+        display: none;
+    }
+}
+@media screen and (max-width:602px) {
+    .photo{
+        width: 300px;
+        height: 180px;
+    }
+    .knop{
+        padding: 34px;
+    }
+    .knop a{
+        padding: 5px 13px;
+    }
+}
